@@ -7,6 +7,7 @@ const botonSortear = document.querySelector('.button-draw'); //Variable para des
 const botonAgregar = document.querySelector('.button-add'); // Variable para deshabilitar el boton agregar
 let sorteoRealizado = false; // Variable para controlar si se ha realizado el sorteo
 
+//funcion para agregar amigos
 function agregarAmigo() {
   const nombre = amigoInput.value.trim();
   if (nombre === "") {
